@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mars Eden Initiative - Gallery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0; 
+      font-family: 'Open Sans', sans-serif;
+      background: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 1.8rem;
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      color: #222;
+    }
+    figure {
+      margin: 0 0 40px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.05);
+    }
+    figcaption {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #555;
+      text-align: center;
+      font-style: italic;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 6px;
+      display: block;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+      padding: 20px 0;
+      border-top: 1px solid #ddd;
+      margin-top: 80px;
+    }
+    @media (max-width: 600px) {
+      header {
+        justify-content: center;
+      }
+      nav a {
+        margin: 15px 10px 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mars Eden Initiative</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="careers.html">Careers</a>
+      <a href="gallery.html">Gallery</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Gallery</h2>
+
+      <figure>
+        <img src="https://mars.nasa.gov/system/news_items/main_images/9427_PIA25681-FigureA-web.jpg" alt="Mars Surface - NASA" />
+        <figcaption>NASA Mars Surface imagery. Credit: NASA/JPL-Caltech</figcaption>
+      </figure>
+
+      <figure>
+        <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2020/11/space_gardening_for_moon_and_mars/22318210-1-eng-GB/Space_gardening_for_Moon_and_Mars_pillars.jpg" alt="Mars Greenhouse Concept - ESA" />
+        <figcaption>ESA concept of space gardening on Mars. Credit: ESA</figcaption>
+      </figure>
+
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Mars Eden Initiative | In partnership with NASA & ESA
+  </footer>
+
+</body>
+</html>
